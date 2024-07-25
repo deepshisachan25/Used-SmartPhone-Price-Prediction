@@ -150,10 +150,12 @@ This step is done so that our model gets train on 60% of records. More data allo
 # SUPERVISED MODEL
 ## REGRESSION MODELS
 For predicting the price of used mobile devices, we are going to build regression models to predict how much will the used mobile device cost. With the accurate price predictions of used mobile devices, businesses and dealers can set prices that are attractive to customers while ensuring their profits.
+
 •	Linear regression model
 •	Stepwise regression model
 •	Regression tree model
-Multiple linear regression model
+
+### Multiple linear regression model
 Using lm() function will build linear regression model on training data and will measure its performance on valid dataset. The linear regression model in used smartphones price prediction is to predict the price of a used mobile devices based on various features or attributes of the devices. Regression analysis is a statistical method used to model the relationship between a dependent variable (the price of the used mobile devices) and one or more independent variables (the features of the mobile devices). They can capture linear relationships between the features of the smartphone and its price.
 I used all the important variables as input in the model. Regression model goodness of fit is R square= 0.8419 and we can see the significant variables of multiple regression model that contribute most to used price like release year, weight, battery, ram, normalized new price, etc. When I tested model performance on validation data it gave low error and maximum correlation between actual and predicted value.
 The goal of using a regression model in used mobile devices price prediction is to provide accurate and reliable estimates of the prices of used mobile devices based on their features, helping businesses in making informed decisions in the secondary smartphone market. 
