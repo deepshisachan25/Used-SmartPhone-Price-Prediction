@@ -224,8 +224,7 @@ unseen data i.e., holdout dataset. Here, we can see that stepwise regression mod
 
 
 #### Holdout Accuracy of Selected Models
- For Holdout	Accuracy	Sensitivity
-Logistic Regression	0.6749	0.6246
+![image](https://github.com/user-attachments/assets/d22d3ec7-aac8-4146-9afa-7b84086041eb)
 
 Model performance for Logistic model is done based on the confusion matrix for the accuracy of model, sensitivity, specificity, etc. which was highest. Sensitivity shows the model can accurately predict by 62.46% that a phone will be a low price means percentage drop in price will be higher (1). This will help businesses in classifying High and low price used devices so that they can make marketing strategies/deals on used phone so that more customers purchase a mobile device. So, this information will be highly useful to business as they can advertise and target the customers by displaying good deals which will result in more customers buying the cheap priced phones from the store, so in this case business will generate high volume of sales. 
 
